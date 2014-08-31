@@ -1,0 +1,227 @@
+/*CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of CSS reset */
+
+
+/*Elements*/
+
+ul {
+	margin: 0;
+}
+
+
+li {
+	display: inline;
+	list-style: none;
+	margin: 0 10px;
+}
+
+a {
+	text-decoration: none;
+	margin-top: 20px;
+	color: blue;
+}
+
+input {
+	width: 550px;
+	height: 30px;
+	border: 1px solid lightblue;
+}
+
+
+/*End of Elements*/
+
+/*Header */
+
+.pull-right {
+	float: right;
+	margin: 10px 10px 0 0;
+}
+
+.links {
+	color: black;
+	font-size: 13px;
+	font-family: arial;
+	padding: -5px;
+}
+
+#share {
+	background-color: #F0F0F0  ;
+	color: black;
+	padding: 7px 10px;
+	font-size: 13px;
+	font-family: arial;
+	text-decoration: none;
+}
+
+#share:hover {
+	background-color: #E0E0E0 ;
+}
+
+nav li a {
+	vertical-align: middle;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#square {
+	background: url("squares.png") 15px 15px no-repeat;
+	background-position: 0;
+	background-size: 15px 15px;
+	height: 15px;
+	width: 15px;
+	margin: 10px;
+	display: inline-block;
+
+}
+
+#bell {
+	background: url("bell.png") 15px 15px no-repeat;
+	background-position: 0;
+	background-size: 15px 15px;
+	height: 15px;
+	width: 15px;
+	margin: 10px;
+	display: inline-block;
+
+}
+
+#profile {
+	background: url("mike-adeleke.jpg") 15px 15px no-repeat;
+	background-position: 0;
+	background-size: 30px 30px;
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+/*End of Header*/
+
+
+/*Body*/
+
+
+
+.google {
+	height: 90px;
+	width: 260px;
+}
+
+#container {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+	padding-top: 150px;
+}
+
+button {
+	padding: 5px;
+	margin-top: 10px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #FFFFF0;
+	border: 1px solid lightgray;
+}
+
+/*End of Body*/
+
+
+/*Footer*/
+
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:20px;
+   width:100%;
+   background: #FFFFF0;
+   padding: 0 0 30px 0;
+}
+
+footer li a {
+	color: gray;
+	font-size: 13px;
+	padding-bottom: 20px;
+	font-family: arial;
+}
+
+
+.floatleft {
+	float: left;
+	padding: 0 20px;
+}
+
+.floatright {
+	float: right;
+	padding: 0 15px;
+}
+
+span {
+	color: red;
+}
+
+.text {
+	margin-top: 50px;
+}
+
+
+/*End of Footer*/
+
+
+
